@@ -32,6 +32,7 @@ JavaScript Regular Expressions **`(RegEx)`** are a sequence of characters used t
 - [Testing Regular Examples:](#testing-regular-examples)
   - [JavaScript](#javascript)
   - [SQL](#sql)
+- [Tutorial to match a email](#tutorial-to-match-a-email)
 - [Author](#author)
 - [MIT License](#mit-license)
 
@@ -150,6 +151,8 @@ are a type of grouping construct in regular expressions that allow for the creat
 
 For example:
 
+<br>
+
 ## JavaScript
 
 var pattern = /Hello/;
@@ -165,7 +168,9 @@ console.log(pattern.test("Goodbye World"));
 
 <b>*`The exec() method can be used to find and return a match, as well as capturing groups.`*
 
-
+<br>
+<br>
+<br>
 ## SQL
 
 `var pattern = /Hello (\w+)/;`
@@ -179,6 +184,44 @@ console.log(result[0]);
 console.log(result[1]);
 
 // returns `"World"`
+
+<br>
+<br>
+<br>
+
+# <span style = "color:Yellow; font-weight:bold">Tutorial to match a email</span>
+
+A regular expression (regex) is a pattern that can be used to match strings. Here is a regex that can be used to match an email address:
+
+Here is the regex code:
+
+`/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/ `
+
+***explanation of each part of the regex***
+
+- `"^"` Matches the start of a line.
+  
+- `[a-zA-Z0-9._%+-]+ `
+  
+  The search must match one or more characters from the following range: letter, number, period, underscore, percent, plus, or hyphen. This is the username part of the email address.
+  
+- `"@"` Matches the at symbol.
+  
+  
+- `[a-zA-Z0-9.-]+` 
+  
+  This search matches letters, numbers, periods, and hyphens.This is the domain name part of the email address.
+  
+
+- ` \.` 
+  
+  Matches a period. The backslash is necessary because period has special meaning in regex and must be escaped.
+
+- `[a-zA-Z]{2,}` 
+  
+  Matches two or more letters. This is the top-level domain of the email address (e.g., com, edu, gov).
+
+- `$`  Matches the end of a line.
 
 
 # <span style = "color:Yellow; font-weight:bold">Author</span>
