@@ -1,13 +1,13 @@
-<div style="background-color: rgb(13, 13, 21);">
 
-# <span style = "color:Yellow; font-weight:bold">Introduction to Regular Expressions in JavaScript:</span>
+
+# <span style = "color:Blue; font-weight:bold">Introduction to Regular Expressions in JavaScript:</span>
 
 **`Regular Expressions`** in **`JavaScript`** are a sequence of characters used to match or search for patterns in text. Regex can be used to efficiently search and manipulate text in JavaScript. 
 
 **`Use cases:`** Regex is widely used in text editors, search engines, and programming languages, including JavaScript.
 
 
-# <span style = "color:yellow; font-weight:bold">Summary</span>
+# <span style = "color:Blue; font-weight:bold">Summary</span>
 JavaScript Regular Expressions **`(RegEx)`** are a sequence of characters used to match or search for patterns in text. They can be created using either literal notation (enclosing the pattern in forward slashes) or using the RegExp object constructor. RegEx has special characters called metacharacters that have specific meaning, such as the dot (.) to match any character except newline, the asterisk (*) to match zero or more occurrences of preceding character, the plus (+) to match one or more occurrences of preceding character, the question mark (?) to match zero or one occurrence of preceding character, and character sets ([abc]) to match any one of the characters in the set. RegEx can be tested in JavaScript using the test() method, which returns a Boolean value indicating whether the pattern matches the string, and the exec() method, which returns an array containing the match and capturing groups.
 
 ##  <span style = "color:Red; font-weight:bold">Table of Contents</span>
@@ -39,7 +39,7 @@ JavaScript Regular Expressions **`(RegEx)`** are a sequence of characters used t
 
 
 
-# <span style = "color:Yellow; font-weight:bold">Creating Regular Expressions in JavaScript:</span>
+# <span style = "color:Blue; font-weight:bold">Creating Regular Expressions in JavaScript:</span>
 
 ## `Literal Notation:`
 
@@ -61,7 +61,7 @@ For example:
 
 
 
-# <span style = "color:Yellow; font-weight:bold"> Basic Regex Syntax and Special Characters:</span>
+# <span style = "color:Blue; font-weight:bold"> Basic Regex Syntax and Special Characters:</span>
 
 ## `Literals` 
 
@@ -144,7 +144,7 @@ are a type of grouping construct in regular expressions that allow for the creat
 
 
 
-# <span style = "color:Yellow; font-weight:bold">Testing Regular Examples:<span>
+# <span style = "color:Blue; font-weight:bold">Testing Regular Examples:<span>
 
 `The test() method can be used to test if a pattern matches a string.`
 
@@ -189,7 +189,7 @@ console.log(result[1]);
 <br>
 <br>
 
-# <span style = "color:Yellow; font-weight:bold">Tutorial to match a email</span>
+# <span style = "color:Blue; font-weight:bold">Tutorial to match a email</span>
 
 A regular expression (regex) is a pattern that can be used to match strings. Here is a regex that can be used to match an email address:
 
@@ -224,12 +224,12 @@ Here is the regex code:
 - `$`  Matches the end of a line.
 
 
-# <span style = "color:Yellow; font-weight:bold">Author</span>
+# <span style = "color:Blue; font-weight:bold">Author</span>
 
 This tutotial is created for Bryan A Quero
 Feel free to contact me at bryanq2008@live.com with any questions about this tutorial. Visit https://github.com/Bryan3D to see more of my projects.
 
-# <span style = "color:Yellow; font-weight:bold">MIT License</span>
+# <span style = "color:Blue; font-weight:bold">MIT License</span>
 Copyright (c) [2023] [`Introduction to Regular Expressions in JavaScript`]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
